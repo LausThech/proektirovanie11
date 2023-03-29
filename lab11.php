@@ -5,10 +5,10 @@
 </head>
 <body>
 <form action="lab11script.php" method="post">
-<input type="text" name="class">
-<input type="text" name="food">
-<input type="text" name="location">
-<input type="text" name="sign">
+<input type="text" name="class" placeholder="class - Cat,Horse,Dog">
+<input type="text" name="food" placeholder="Еда">
+<input type="text" name="location" placeholder="Локация">
+<input type="text" name="sign" placeholder="Уникальное">
 <button>Вычислить</button>
 </form>
 </form>
