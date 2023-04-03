@@ -95,7 +95,7 @@ if($class == 'Dog')
 $object = new Dog($food, $location, $sign);
 echo "<br>".$object->food;
 echo "<br>".$object->location;
-echo "<br>".$object->breed;
+echo "<br>".$object->razmer;
 }
 if($class == 'Horse')
 {
