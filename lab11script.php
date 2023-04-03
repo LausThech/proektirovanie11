@@ -38,11 +38,11 @@ echo "<br>"."the cat is sleeping";
 class Dog extends Animal
 {
 public $razmer;
-function __construct($food, $location, $breed)
+function __construct($food, $location, $razmer)
 {
 $this->food = $food;
 $this->location = $location;
-$this->breed = $breed;
+$this->razmer = $razmer;
 }
 function make_noise()
 {
